@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "completed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/18_Todos.sol": "Todos"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/18_Todos.sol": {
+			"keccak256": "0x649eccf3f5a74539825a496328fd3892c2d7d330d1b295d555ea2622d298aa52",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6dfa7f945d4e9a93fb38d5fd821e4290a86eced15fbc359f0c1d4a7c84a34f9a",
+				"dweb:/ipfs/QmXhqgSBtXSzsz2F31DowHkT6AUWYWGGYmdvfYMFcKLv1T"
+			]
+		},
+		"contracts/StructDeclaration.sol": {
+			"keccak256": "0x6141c5dc361a36b889b15d5407404c2e76ef5195f8da7cbf5df8c9cd2337fa03",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://50f90ee4ca57ddf6ac8f2b4584592621a48020c5f60ee71fba441d1790f6097c",
+				"dweb:/ipfs/QmWzxBRTA8zkCQw4xMuuEZi3MVkPcneTYXNEW8dKinsUCD"
+			]
+		}
+	},
+	"version": 1
+}

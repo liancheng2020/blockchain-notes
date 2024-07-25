@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/11_Loop.sol": "Loop"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/11_Loop.sol": {
+			"keccak256": "0xae5cd473c1bda66d603acb5dcbcae36735427c2913201b36efd35444746d5940",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b66e4daa05926e336d05b026cbdbbbda988d067aa659f5a0b1b078ae0ba6adef",
+				"dweb:/ipfs/QmZLaZpJjCm2kJxSc9Wnyqt1vpp3yhepG4nNSg7JjirL8C"
+			]
+		}
+	},
+	"version": 1
+}
