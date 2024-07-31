@@ -76,7 +76,9 @@ contract MultiSigWallet {
     }
     function getApprovalCount(uint256 _txId) public view returns (uint256 count) {
         for (uint256 index = 0; index < owners.length; index++) {
-            count += 1;
+            if (approved[_txId][owners[index]]) {
+                count += 1;
+            }
         }
     }
     function revoke(uint256 _txId) external onlyOwner txExists(_txId) notExecuted(_txId) {
